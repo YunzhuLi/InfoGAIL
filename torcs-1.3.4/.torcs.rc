@@ -1,0 +1,2 @@
+TORCS_BASE = /home/yunzhu/Desktop/imitation_torcs/torcs-1.3.4
+MAKE_DEFAULT = /home/yunzhu/Desktop/imitation_torcs/torcs-1.3.4/Make-default.mk

@@ -1,0 +1,35 @@
+Changes since 1.3.2
+-------------------
+- Adopted trb for newer PHP (>= 5.2) versions (Bernhard).
+- Added race schedule "wizard" to trb, championships are much quicker to set up
+  (Bernhard).
+- Little trb improvements (Bernhard).
+- Created/added new wheels for stock cars (Bernhard).
+- Created/added new stock car category (Bernhard).
+- Created/added new stock car (Bernhard).
+- Created/added textures for drivers of the new stock car, berniw 1, berniw 2,
+  bt 1, bt 2, reconfigured drivers to use this car (Bernhard).
+- Replaced more sprintf's (Bernhard).
+- Fixed some gcc 4.6 warnings (not yet all though) (Bernhard).
+- Removed *ascar category and car (stock1 is the replacement) (Bernhard).
+- Adopted Windows ports/project files to the changes (Bernhard).
+- trb car users can now choose from all trb wheels (Bernhard).
+- minor setup adjustments for trb cars (suspension can extend a tad more)
+  (Bernhard).
+- Now you can run races in command line mode (e.g. useful for AI training and
+  automated testing), e.g. run
+  "~/torcs_bin/bin/torcs -r ~/.torcs/config/raceman/dtmrace.xml"
+  (or on Windows e.g. "wtorcs.exe -r config/raceman/dtmrace.xml").
+  The new -r option takes an ordinary race configuration file, you can set it up
+  as usual with the TORCS GUI or edit it manually/generate it. Human drivers
+  are not allowed of course. (Bernhard)
+- Added track "Corkscrew", created by Gabor Kmetyko and Andrew Sumner
+  (Gabor, Andrew, Bernhard).
+- Added track "Brondehach", created by Andrew Sumner, "Milestone" and Eckhard
+  Jaeger (Andrew, Milestone, Eckhard, Bernhard).
+- Fixed another possible buffer overflow reported by Andres Gomez
+  (Andres, Bernhard).
+- Fixed #2838393 as suggested by David Zimmerman (added seconds to result file
+  name) (David, Bernhard).
+- Updated the FAQ regarding new command line mode and other questions (Bernhard).
+- Updated installer/version number etc. (Bernhard)

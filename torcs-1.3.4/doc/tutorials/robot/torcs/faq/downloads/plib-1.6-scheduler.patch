@@ -1,0 +1,54 @@
+ Index: sl.h
+ ===================================================================
+ RCS file: /cvsroot/plib/plib/src/sl/sl.h,v
+ retrieving revision 1.22
+ diff -u -p -r1.22 sl.h
+ --- sl.h	4 Jan 2003 02:55:55 -0000	1.22
+ +++ sl.h	16 May 2003 09:04:21 -0000
+ @@ -645,6 +645,7 @@ class slScheduler : public slDSP
+    float safety_margin ;
+  
+    int mixer_buffer_size, mixer_gain ;
+ +  float seconds_per_buffer;
+  
+    Uchar *mixer_buffer  ;
+    Uchar *mixer_inputs [ SL_MAX_MIXERINPUTS + 1 ] ;
+ Index: slScheduler.cxx
+ ===================================================================
+ RCS file: /cvsroot/plib/plib/src/sl/slScheduler.cxx,v
+ retrieving revision 1.9
+ diff -u -p -r1.9 slScheduler.cxx
+ --- slScheduler.cxx	2 Sep 2002 06:05:47 -0000	1.9
+ +++ slScheduler.cxx	16 May 2003 09:04:21 -0000
+ @@ -84,6 +84,10 @@ void slScheduler::initBuffers ()
+    setMaxConcurrent ( 0 );
+  
+    mixer_buffer_size = getDriverBufferSize () ;
+ +  int div = 1;
+ +  if ( getStereo() )     div *= 2 ;
+ +  if ( getBps() == 16 )  div *= 2 ;
+ +  seconds_per_buffer = (float)mixer_buffer_size / ( div * getRate() ) ;
+  
+    mixer_buffer = new Uchar [ mixer_buffer_size ] ;
+    memset ( mixer_buffer, 0x80, mixer_buffer_size ) ;
+ @@ -132,7 +136,7 @@ void slScheduler::realUpdate ( int dump_
+    
+    int i ;
+  
+ -  while ( secondsUsed() <= safety_margin )
+ +  while ( secondsUsed() <= safety_margin && secondsRemaining() >= seconds_per_buffer )
+    {
+      slPlayer *psp [ SL_MAX_MIXERINPUTS ] ;
+      int       pri [ SL_MAX_MIXERINPUTS ] ;
+ @@ -174,7 +178,9 @@ void slScheduler::realUpdate ( int dump_
+             ( mypri > pri[lowest] )
+           )
+        { /* Not enough room; get rid of someone */
+ -        player[lowest] -> preempt ( mixer_buffer_size ) ;
+ +        if ( player[lowest] != NULL )
+ +          player[lowest] -> preempt ( mixer_buffer_size ) ;
+ +
+  	psp[lowest] = player[i] ;
+  	pri[lowest] = mypri ;
+          int j;
+ 

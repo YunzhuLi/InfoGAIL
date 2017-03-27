@@ -1,0 +1,27 @@
+/Makefile/1.3.2.1/Mon Jan  2 16:39:05 2012//Tr1-3-1
+/control.cpp/1.3.2.4/Mon Jan  2 16:39:05 2012//Tr1-3-1
+/fg_gm.cpp/1.5.2.2/Wed Dec 31 03:53:55 2008//Tr1-3-1
+/fg_gm.h/1.2/Tue Jun 24 21:02:25 2003//Tr1-3-1
+/glfeatures.cpp/1.2.2.2/Wed Dec 28 15:03:28 2011//Tr1-3-1
+/glfeatures.h/1.2/Fri Aug  5 09:26:39 2005//Tr1-3-1
+/gui.cpp/1.7.2.6/Thu Dec 29 16:14:21 2011//Tr1-3-1
+/gui.h/1.2.2.3/Thu Dec 29 16:14:21 2011//Tr1-3-1
+/guibutton.cpp/1.3.2.2/Wed Dec 31 03:53:55 2008//Tr1-3-1
+/guiedit.cpp/1.2.2.2/Wed Dec 31 03:53:55 2008//Tr1-3-1
+/guifont.cpp/1.4.2.5/Sun Jun 10 01:18:03 2012//Tr1-3-1
+/guifont.h/1.2/Tue Jun 24 21:02:25 2003//Tr1-3-1
+/guihelp.cpp/1.3/Sat Feb 28 08:39:13 2004//Tr1-3-1
+/guiimage.cpp/1.3/Tue Feb  1 15:55:55 2005//Tr1-3-1
+/guilabel.cpp/1.2.2.4/Fri May 18 01:37:39 2012//Tr1-3-1
+/guimenu.cpp/1.2.2.2/Wed Dec 31 03:53:55 2008//Tr1-3-1
+/guimenu.h/1.2/Tue Jun 24 21:02:25 2003//Tr1-3-1
+/guiobject.cpp/1.3.2.2/Sun Nov  9 17:50:22 2008//Tr1-3-1
+/guiscrollbar.cpp/1.3.2.3/Sun May 20 11:59:32 2012//Tr1-3-1
+/guiscrollist.cpp/1.4.2.3/Sun May 20 11:59:33 2012//Tr1-3-1
+/img.cpp/1.5.2.3/Thu Dec 29 19:01:45 2011//Tr1-3-1
+/screen.cpp/1.23.2.9/Sun Jun 10 09:32:23 2012//Tr1-3-1
+/screen.xml/1.4/Sat Dec  6 16:30:41 2003//Tr1-3-1
+/screen_properties.h/1.4/Tue Feb  1 15:55:55 2005//Tr1-3-1
+/tgfclient.cpp/1.2/Tue Jun 24 21:02:25 2003//Tr1-3-1
+/tgfclient.h/1.3.2.3/Mon Jan  2 16:39:05 2012//Tr1-3-1
+D

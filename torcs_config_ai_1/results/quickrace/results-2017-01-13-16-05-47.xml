@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE params SYSTEM "/usr/local/share/games/torcs/config/params.dtd">
+<?xml-stylesheet type="text/xsl" href="file:////usr/local/share/games/torcs/config/style.xsl"?>
+
+<params name="Results">
+  <section name="Header">
+    <attnum name="date" val="1.48435e+09"/>
+  </section>
+
+  <section name="Current">
+    <attnum name="current track" val="1"/>
+    <attnum name="current race" val="1"/>
+    <attnum name="current driver" val="1"/>
+  </section>
+
+  <section name="chenyi-Wheel 2">
+    <section name="Drivers">
+      <section name="1">
+        <attstr name="dll name" val="human"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="2">
+        <attstr name="dll name" val="chenyi_AI1"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="3">
+        <attstr name="dll name" val="chenyi_AI2"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="4">
+        <attstr name="dll name" val="chenyi_AI3"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="5">
+        <attstr name="dll name" val="chenyi_AI4"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="6">
+        <attstr name="dll name" val="chenyi_AI5"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="7">
+        <attstr name="dll name" val="chenyi_AI6"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="8">
+        <attstr name="dll name" val="chenyi_AI8"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="9">
+        <attstr name="dll name" val="chenyi_AI9"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="10">
+        <attstr name="dll name" val="chenyi_AI10"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="11">
+        <attstr name="dll name" val="chenyi_AI11"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+      <section name="12">
+        <attstr name="dll name" val="chenyi_AI12"/>
+        <attnum name="index" val="1"/>
+      </section>
+
+    </section>
+
+    <section name="Results">
+      <section name="Quick Race">
+        <attnum name="laps" val="3"/>
+        <section name="Rank">
+          <section name="1">
+            <attstr name="name" val="Player"/>
+            <attstr name="car" val="Peugeot 206 WRC"/>
+            <attnum name="index" val="0"/>
+            <attnum name="laps" val="3"/>
+            <attnum name="time" val="919.918"/>
+            <attnum name="best lap time" val="231.066"/>
+            <attnum name="top speed" val="53.1243"/>
+            <attnum name="dammages" val="0"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="human"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="2">
+            <attstr name="name" val="chenyi_AI1"/>
+            <attstr name="car" val="Corvette T-Top"/>
+            <attnum name="index" val="1"/>
+            <attnum name="laps" val="1"/>
+            <attnum name="time" val="562.452"/>
+            <attnum name="best lap time" val="562.452"/>
+            <attnum name="top speed" val="27.0214"/>
+            <attnum name="dammages" val="19156"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI1"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="3">
+            <attstr name="name" val="chenyi_AI3"/>
+            <attstr name="car" val="Ferrari 330 P4"/>
+            <attnum name="index" val="3"/>
+            <attnum name="laps" val="1"/>
+            <attnum name="time" val="512.026"/>
+            <attnum name="best lap time" val="512.026"/>
+            <attnum name="top speed" val="14.1044"/>
+            <attnum name="dammages" val="14636"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI3"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="4">
+            <attstr name="name" val="chenyi_AI12"/>
+            <attstr name="car" val="car1-trb1"/>
+            <attnum name="index" val="11"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="17.3551"/>
+            <attnum name="dammages" val="10028"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI12"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="5">
+            <attstr name="name" val="chenyi_AI2"/>
+            <attstr name="car" val="Aston Martin DBS"/>
+            <attnum name="index" val="2"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="13.5491"/>
+            <attnum name="dammages" val="12141"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI2"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="6">
+            <attstr name="name" val="chenyi_AI11"/>
+            <attstr name="car" val="car5-trb1"/>
+            <attnum name="index" val="10"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="16.8155"/>
+            <attnum name="dammages" val="10047"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI11"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="7">
+            <attstr name="name" val="chenyi_AI9"/>
+            <attstr name="car" val="Alfa Romeo 155 DTM"/>
+            <attnum name="index" val="8"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="15.6909"/>
+            <attnum name="dammages" val="12701"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI9"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="8">
+            <attstr name="name" val="chenyi_AI6"/>
+            <attstr name="car" val="Ferrari 250 GTO"/>
+            <attnum name="index" val="6"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="14.5083"/>
+            <attnum name="dammages" val="11349"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI6"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="9">
+            <attstr name="name" val="chenyi_AI4"/>
+            <attstr name="car" val="Opel GT Conrero"/>
+            <attnum name="index" val="4"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="13.989"/>
+            <attnum name="dammages" val="11791"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI4"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="10">
+            <attstr name="name" val="chenyi_AI10"/>
+            <attstr name="car" val="car7-trb1"/>
+            <attnum name="index" val="9"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="16.247"/>
+            <attnum name="dammages" val="10035"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI10"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="11">
+            <attstr name="name" val="chenyi_AI5"/>
+            <attstr name="car" val="Austin-Healey 3000 Mk II"/>
+            <attnum name="index" val="5"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="13.8067"/>
+            <attnum name="dammages" val="16672"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI5"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+          <section name="12">
+            <attstr name="name" val="chenyi_AI8"/>
+            <attstr name="car" val="Ford Focus WRC"/>
+            <attnum name="index" val="7"/>
+            <attnum name="laps" val="0"/>
+            <attnum name="time" val="0"/>
+            <attnum name="best lap time" val="0"/>
+            <attnum name="top speed" val="15.0953"/>
+            <attnum name="dammages" val="13214"/>
+            <attnum name="pits stops" val="0"/>
+            <attstr name="module" val="chenyi_AI8"/>
+            <attnum name="idx" val="1"/>
+            <attnum name="points" val="0"/>
+          </section>
+
+        </section>
+
+      </section>
+
+    </section>
+
+  </section>
+
+  <section name="Standings">
+    <section name="1">
+      <attstr name="name" val="Player"/>
+      <attstr name="module" val="human"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="2">
+      <attstr name="name" val="chenyi_AI1"/>
+      <attstr name="module" val="chenyi_AI1"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="3">
+      <attstr name="name" val="chenyi_AI3"/>
+      <attstr name="module" val="chenyi_AI3"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="4">
+      <attstr name="name" val="chenyi_AI12"/>
+      <attstr name="module" val="chenyi_AI12"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="5">
+      <attstr name="name" val="chenyi_AI2"/>
+      <attstr name="module" val="chenyi_AI2"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="6">
+      <attstr name="name" val="chenyi_AI11"/>
+      <attstr name="module" val="chenyi_AI11"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="7">
+      <attstr name="name" val="chenyi_AI9"/>
+      <attstr name="module" val="chenyi_AI9"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="8">
+      <attstr name="name" val="chenyi_AI6"/>
+      <attstr name="module" val="chenyi_AI6"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="9">
+      <attstr name="name" val="chenyi_AI4"/>
+      <attstr name="module" val="chenyi_AI4"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="10">
+      <attstr name="name" val="chenyi_AI10"/>
+      <attstr name="module" val="chenyi_AI10"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="11">
+      <attstr name="name" val="chenyi_AI5"/>
+      <attstr name="module" val="chenyi_AI5"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+    <section name="12">
+      <attstr name="name" val="chenyi_AI8"/>
+      <attstr name="module" val="chenyi_AI8"/>
+      <attnum name="idx" val="1"/>
+      <attnum name="points" val="0"/>
+    </section>
+
+  </section>
+
+</params>

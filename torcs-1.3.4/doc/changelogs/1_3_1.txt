@@ -1,0 +1,98 @@
+Changes since 1.3.1-test1
+-------------------------
+- Compile fixes for gcc 4.3 reported by Mart Kelder (Mart Kelder, Bernhard).
+- Fixed clutch problems and improved ABS for human driver (Andrew Sumner,
+  Bernhard).
+- Set steer speed of car1-trb3 and p406 to 360 (Bernhard).
+- Removed outdated README/INSTALL files (Bernhard).
+- Updated FAQ and installation instructions (Bernhard).
+- Applied wheel-2 texture updates created by Eckhard and Andrew (Eckhard,
+  Andrew, Bernhard).
+- Changed version to 1.3.1 (Bernhard).
+- Fixed #1674545 (Bernhard).
+- Replaced track dirt-1 with upgrade from Eckhard (Eckhard, Bernhard).
+- Corrected mipmapping/transparency behaviour of new dirt-1 track (Bernhard).
+
+
+Changes since 1.3.0
+-------------------
+- Applied patch for screen resolution change program crash when the path
+  contained spaces (Brian Gavin, Bernhard).
+- Added new car, car2-trb1 (Bernhard).
+- Added new car, car3-trb1 (Bernhard).
+- TRB: allow signing in during season, mail tool for admin (Bernhard).
+- Added new car, car5-trb1 (Bernhard).
+- Added new car, car4-trb1 (Bernhard).
+- Suspension improvement, car does not lift up anymore magically on bumpy
+  surfaces (e.g. in the grass) (Christos, Bernhard).
+- Antirollbars are now functional (Bernhard).
+- Rolling resistance is now correctly working (this fixes as well the
+  "forever stuck in the sand" and the "wheel spinning like mad and
+  car stuck" problems (Bernhard).
+- Fixed XML parsing problem with entities (#1651190, reported by Carsten
+  Milkau) (Bernhard) 
+- Code adjustments for VC 2005 (Eric).
+- Added car6-trb1 created by Wolf-Dieter Beelitz and reworked by Bernhard
+  (Wolf-Dieter Beelitz, Bernhard).
+- Car engine sound is now searched in the cars directory first (Eric).
+- Added new car, car7-trb1 (Bernhard).
+- Adjusted car1-7 performance settings (Bernhard).
+- Improvements for track Ruudskogen by Andrew (Andrew, Bernhard).
+- Improvements for track Street-1 by Andrew (Andrew, Bernhard).
+- Added new track Forza created by Andrew (Andrew, Bernhard).
+- Improvements for track wheel-2 by Andrew (Andrew, Bernhard).
+- Totally reworked track e-track-6 by Andrew (Andrew, Bernhard).
+- Improvements for track dirt-3 by Andrew (Andrew, Bernhard).
+- Improvements for track alpine-1 by Andrew (Andrew, Bernhard).
+- Fuel consumption adjustments on car1-7 (Wolf-Dieter, Andrew, Daniel,
+  Bernhard).
+- Additional cameras on spring track by Wolf-Dieter (Wolf-Dieter, Bernhard).
+- Reparametrized 360-modena, renamed to car1-trb3 (Bernhard).
+- Removed unmaintained car models (Bernhard).
+- Reparametrized several models (Bernhard).
+- Adopted robots to the new car set (Bernhard).
+- Applied fix for broken race result list from Jean-Philippe Meuret
+  (Jean-Philippe Meuret, Bernhard).
+- Applied human driver patch from Andrew and Christos, added minor corrections
+  (Andrew, Christos, Bernhard).
+- Fixed some gcc 4.2 warnings, not yet all to keep the interface stable
+  (Bernhard).
+- Adjusted various setups for the suspension code changes (Bernhard).
+- Regenerated configure, adopted in files to autoconf changes (Bernhard).
+- Updated vc++ 6.0 project files and bat scripts (Bernhard).
+- Added new track alpine-2 created by Daniel Schellhammer and Andrew (Daniel,
+  Andrew, Bernhard).
+- Reorganized bat scripts according suggestion of Jean-Philippe (Bernhard).
+- Added texture for inferno 9 (Andrew), tita 9 (Miguel Martinez), inferno 3
+  and 8 (Wolf-Dieter), berniw 7, inferno 7, bt 7, damned 7, olethros 7
+  (Bernhard), (Andrew, Miguel, Wolf-Dieter, Bernhard).
+- Created and added lots of textures for trb1 opponents (Bernhard).
+- Updated bat files to deploy textures (Bernhard).
+- Reintroduced Olethros on Windows, adjusted project dependencies and made
+  code compile (Bernhard).
+- Adjusted race modes, take existing cars and tracks (Bernhard).
+- Adjusted preset driver "Player" (Bernhard).
+- Set steer speed to 360 Deg/s on the trb1 cars (Bernhard).
+- Fit background images without distortion, background image aspect ratio is
+  16:10 (Bernhard).
+- Created new background images (Bernhard).
+- Splash screen scaling without distortion, added smoothing (Bernhard).
+- Added splash screen created by Eckhard M. Jäger (Eckhard, Bernhard).
+- Do not call anymore GfuiIdle for ordinary menus/screens to save power and
+  avoid annoying high frequency noise from graphics hardware (Bernhard).
+- Redone camera placement of alpine-1 (Bernhard).
+- Fixed trackgen not accepting -H option under posix builds (Bernhard).
+- Fixed trackgen not building the elevation 3 map (Bernhard).
+- Equalized author name formatting for tracks (Bernhard).
+- Replaced forza track selection image with a track map (Bernhard).
+- Added new background image and color settings to track alpine-1, created
+  by Eckhard M. Jäger (Eckhard, Bernhard).
+- Fixed wrong texture size constant in openglconfg.cpp (Bernhard).
+- Fixed broken car light rendering, more adjustments will be required
+  (Bernhard).
+- Added new light definitions for trb cars, created by Wolf-Dieter
+  (Wolf-Dieter, Bernhard).
+- Updated installer for Windows (Bernhard).
+- Fixed empty -L option in configure.in, suggested by Jean-Philippe Meuret
+  (Jean-Philippe Meuret, Bernhard).
+- Reduced number of packages (make packages) (Bernhard).

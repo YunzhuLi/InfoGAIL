@@ -1,0 +1,124 @@
+Grouped by bot:
+---------------
+trb1:
+#9		olethros 3
+#19		olethros 4
+#18		olethros 5
+#79		olethros 6
+#7		olethros 7
+#21		olethros 8
+#62		olethros 9
+
+#54		berniw two 7
+#40		berniw two 8
+#		berniw two 9
+
+#1		damned 7
+#25		damned 8
+#8		damned 9
+
+#48		bt 3
+#81		bt 4
+#6		bt 5
+#94		bt 6
+#16		bt 7
+#15		bt 8
+#4		bt 9
+
+#71		lliaw 3
+#24		lliaw 4
+#27		lliaw 5
+#14		lliaw 6
+#46		lliaw 7
+#12		lliaw 8
+#5		lliaw 9
+
+#2		berniw 3
+#53		berniw 4
+#43		berniw 5
+#40		berniw 6
+#37		berniw 7
+#11		berniw 8
+#		berniw 9
+
+#63		tita 3
+#47		tita 4
+#10		tita 5
+#17		tita 6
+#29		tita 7
+#13		tita 8
+#69		tita 9
+
+#42		inferno 3
+#88		inferno 4
+#3		inferno 5
+#31		inferno 6
+#49		inferno 7
+#32		inferno 8
+#77		inferno 9
+
+
+
+trb3:
+#78		olethros 10
+#		berniw two 10
+#		damned 10
+#		bt 10
+#		lliaw 10
+#56		berniw 10
+#		tita 10
+inferno 10
+
+
+
+Sorted by number: (in kate use tools->filter, external command "sort)
+-----------------
+trb1:
+#1		damned 7
+#2		berniw 3
+#3		inferno 5
+#4		bt 9
+#5		lliaw 9
+#6		bt 5
+#7		olethros 7
+#8		damned 9
+#9		olethros 3
+#10		tita 5
+#11		berniw 8
+#12		lliaw 8
+#13		tita 8
+#14		lliaw 6
+#15		bt 8
+#16		bt 7
+#17		tita 6
+#18		olethros 5
+#19		olethros 4
+#21		olethros 8
+#24		lliaw 4
+#25		damned 8
+#27		lliaw 5
+#29		tita 7
+#31		inferno 6
+#32		inferno 8
+#37		berniw 7
+#40		berniw 6
+#40		berniw two 8
+#42		inferno 3
+#43		berniw 5
+#46		lliaw 7
+#47		tita 4
+#48		bt 3
+#49		inferno 7
+#53		berniw 4
+#54		berniw two 7
+#62		olethros 9
+#63		tita 3
+#69		tita 9
+#71		lliaw 3
+#77		inferno 9
+#79		olethros 6
+#81		bt 4
+#88		inferno 4
+#94		bt 6
+#		berniw 9
+#		berniw two 9

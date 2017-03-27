@@ -1,0 +1,27 @@
+/Makefile/1.6/Wed Aug 20 05:48:42 2003//Tr1-3-1
+/asciitab.h/1.1.1.1/Sun Jun 24 18:29:45 2001//Tr1-3-1
+/codepage.h/1.1.1.1/Sun Jun 24 18:29:45 2001//Tr1-3-1
+/dllmain.c/1.3/Sun Oct 13 22:03:37 2002//Tr1-3-1
+/filemap.h/1.1.1.1/Sun Jun 24 18:29:45 2001//Tr1-3-1
+/gennmtab.c/1.3/Sun Oct 13 22:03:37 2002//Tr1-3-1
+/hashtable.c/1.4/Thu Jan 23 18:38:47 2003//Tr1-3-1
+/hashtable.h/1.1.1.1/Sun Jun 24 18:29:46 2001//Tr1-3-1
+/iasciitab.h/1.1.1.1/Sun Jun 24 18:29:46 2001//Tr1-3-1
+/latin1tab.h/1.1.1.1/Sun Jun 24 18:29:46 2001//Tr1-3-1
+/nametab.h/1.1.1.1/Sun Jun 24 18:29:47 2001//Tr1-3-1
+/txml.def/1.3/Mon Sep  1 06:28:43 2003//Tr1-3-1
+/txml.dsp/1.8.2.3/Sat Dec 31 03:27:58 2011//Tr1-3-1
+/txml.vcproj/1.1.2.2/Sat Dec 31 06:01:10 2011//Tr1-3-1
+/utf8tab.h/1.1.1.1/Sun Jun 24 18:29:47 2001//Tr1-3-1
+/xml.cpp/1.4.2.3/Wed Dec 28 15:04:25 2011//Tr1-3-1
+/xml.h/1.1.1.1/Sun Jun 24 18:29:48 2001//Tr1-3-1
+/xmldef.h/1.1.1.1/Sun Jun 24 18:29:48 2001//Tr1-3-1
+/xmlparse.c/1.5/Sat Mar  8 17:58:32 2003//Tr1-3-1
+/xmlparse.h/1.1.1.1/Sun Jun 24 18:29:53 2001//Tr1-3-1
+/xmlrole.c/1.3/Sun Oct 13 22:03:37 2002//Tr1-3-1
+/xmlrole.h/1.1.1.1/Sun Jun 24 18:29:55 2001//Tr1-3-1
+/xmltok.c/1.7/Sun Oct 29 15:55:33 2006//Tr1-3-1
+/xmltok.h/1.2/Sat Sep 15 10:14:27 2001//Tr1-3-1
+/xmltok_impl.c/1.4/Sun Oct 13 22:03:37 2002//Tr1-3-1
+/xmltok_impl.h/1.1.1.1/Sun Jun 24 18:30:00 2001//Tr1-3-1
+D

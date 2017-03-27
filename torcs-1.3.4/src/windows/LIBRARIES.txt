@@ -1,0 +1,20 @@
+Library versions and build settings:
+
+libvorbis.lib, 1.3.2, dll, built with VS 2008, code generation /MT, ordinary instruction set
+libvorbisfile.lib, libvorbis.lib (same build)
+
+libogg.lib, 1.3.0, dll, built with VS 2008, code generation /MT, ordinary instruction set
+
+libpng15.lib, 1.5.7, dll, built with VS 2008, code generation /MT, ordinary instruction set, for vs2008 build
+
+libpng15_vs6static.lib, 1.5.7, static lib, built with VS 6, code generation /MT, pentium pro
+(this is required because file handles are passed into the lib, so the runtime system must match between library
+and build, libvorbis does handle this better)
+
+zlib1.lib, 1.2.5, dll, built with VS 2008, code generation /MT, ordinary instruction set, for vs2008 build
+
+zlib1_vs6static.lib, 1.2.5, static lib, built with VS 6, code generation /MT, pentium pro
+(this is required because file handles are passed into the lib, so the runtime system must match between library
+and build, libvorbis does handle this better)
+
+ul.lib, ssg*.lib, sl.lib, sg.lib, static lib, built with VS 6, code generation /MT, pentium pro
