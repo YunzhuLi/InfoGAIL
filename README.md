@@ -1,4 +1,4 @@
-# *InfoGAIL*: Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs
+# Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs
 
 By Yunzhu Li, Jiaming Song, Stefano Ermon
 
@@ -15,7 +15,7 @@ If you find this codebase useful in your research, please consider citing:
 	@article{li17inferring,
 		Author = {Yunzhu Li, Jiaming Song, Stefano Ermon},
 		Title = {Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs},
-		Journal = {arXiv preprint arXiv:xxxx.xxxxx},
+		Journal = {arXiv preprint arXiv:1703.08840},
 		Year = {2017}
 	}
 
@@ -89,11 +89,11 @@ cp -r torcs_config_ai_0 ~/.torcs
 
    Run *pass* with different latent codes (`0` or `1`):
 
-   ![](pass_code_0.gif)![](pass_code_1.gif)
+   ![](pass_code_0.gif) ![](pass_code_1.gif)
 
    Run *turn* with different latent codes (`0` or `1`):
 
-   ![](turn_code_1.gif)![](turn_code_0.gif)
+   ![](turn_code_1.gif) ![](turn_code_0.gif)
 ### Training
 
 1. cd to `wgail_info_0/`
