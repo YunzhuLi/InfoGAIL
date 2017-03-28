@@ -13,7 +13,7 @@ InfoGAIL implementation, attached with two examples: *pass* & *turn*.
 If you find this codebase useful in your research, please consider citing:
 
 	@article{li17inferring,
-		Author = {Yunzhu Li, Jiaming Song, Stefano Ermon},
+		Author = {Yunzhu Li and Jiaming Song and Stefano Ermon},
 		Title = {Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs},
 		Journal = {arXiv preprint arXiv:1703.08840},
 		Year = {2017}
