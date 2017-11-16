@@ -1,4 +1,4 @@
-# Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs
+# [InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations](https://arxiv.org/abs/1703.08840)
 
 By Yunzhu Li, Jiaming Song, Stefano Ermon
 
@@ -12,11 +12,11 @@ InfoGAIL implementation, attached with two examples: *pass* & *turn*.
 
 If you find this codebase useful in your research, please consider citing:
 
-	@article{li17inferring,
-		Author = {Yunzhu Li and Jiaming Song and Stefano Ermon},
-		Title = {Inferring The Latent Structure of Human Decision-Making from Raw Visual Inputs},
-		Journal = {arXiv preprint arXiv:1703.08840},
-		Year = {2017}
+	@article{li2017inferring,
+  	    title={InfoGAIL: Interpretable Imitation Learning from Visual Demonstrations},
+  	    author={Li, Yunzhu and Song, Jiaming and Ermon, Stefano},
+  	    journal={arXiv preprint arXiv:1703.08840},
+  	    year={2017}
 	}
 
 ### Requirements
@@ -28,7 +28,7 @@ If you find this codebase useful in your research, please consider citing:
 
 ### Install and Configure TORCS
 
-In the following section, we only show the commands for running example 0 *(pass)*. Users can change 0 to 1 in the following commands to run example 1 *(turn)*.
+In the following section, we only show the commands for running example 0 (indicating *pass*). Users can replace 0 with 1 to run example 1 (indicating *turn*).
 
 1. Install all the dependencies of TORCS, including but not limited to:
 
@@ -94,6 +94,7 @@ cp -r torcs_config_ai_0 ~/.torcs
    Run *turn* with different latent codes (`0` or `1`):
 
    ![](turn_code_1.gif) ![](turn_code_0.gif)
+
 ### Training
 
 1. cd to `wgail_info_0/`
