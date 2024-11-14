@@ -70,12 +70,12 @@ cp -r torcs_config_ai_0 ~/.torcs
 ### Download training data and pretrained weights
 
 1. Training data
-- example 0 *(pass)* [DropBox](https://www.dropbox.com/s/4tbwvidrb1l5p7v/human_0.zip?dl=0)
-- example 1 *(turn)* [DropBox](https://www.dropbox.com/s/0c93lxrwvg5kze1/human_1.zip?dl=0)
+- example 0 *(pass)* [DropBox](https://www.dropbox.com/s/ucm5z7sv07ja6gl/human_0.zip?st=afg0wtxx&dl=0)
+- example 1 *(turn)* [DropBox](https://www.dropbox.com/s/jfpssk13qc07vxr/human_1.zip?st=21tr15gk&dl=0)
 
 2. Pretrained weights
-- example 0 [DropBox](https://www.dropbox.com/s/e8f8cv11eoavpji/wgail_info_params_0.zip?dl=0)
-- example 1 [DropBox](https://www.dropbox.com/s/oagd8uc94au5tjf/wgail_info_params_1.zip?dl=0)
+- example 0 [DropBox](https://www.dropbox.com/s/s34neauif9c0s2i/wgail_info_params_0.zip?st=mkje540e&dl=0)
+- example 1 [DropBox](https://www.dropbox.com/s/zjpehl9r5hgx7md/wgail_info_params_1.zip?st=4ev2gh22&dl=0)
 
 ### Run with pretrained weights 
 
